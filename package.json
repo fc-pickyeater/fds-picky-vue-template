@@ -1,0 +1,9 @@
+{
+  "name": "picky-cook-book-template",
+  "version": "2.0.0",
+  "license": "MIT",
+  "description": "picky-cook-book-template",
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}
