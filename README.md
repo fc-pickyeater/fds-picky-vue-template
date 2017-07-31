@@ -15,8 +15,8 @@
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init fc-pickyeater/template pickyCookBook
-$ cd pickyCookBook
+$ vue init fc-pickyeater/fds-picky-vue-template project-name
+$ cd project-name
 $ npm install
 $ npm run dev
 ```
