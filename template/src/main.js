@@ -8,6 +8,10 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
 
+{{#vuex}}
+import {store} from './store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+{{/vuex}}
+
 // 환경설정: false로 설정할 경우, 배포에 대한 Tip을 출력하지 않습니다.
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 

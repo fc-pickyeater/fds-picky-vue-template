@@ -57,6 +57,11 @@ module.exports = {
       "message": "Vue-router를 사용 하시겠습니까?",
       "default": true
     },
+    "vuex": {
+      "type": "confirm",
+      "message": "Vuex를 사용 하시겠습니까?",
+      "default": true
+    },
     "lint": {
       "type": "confirm",
       "message": "ESLint를 사용 하시겠습니까?",
@@ -102,7 +107,8 @@ module.exports = {
     "test/unit/**/*": "unit",
     "build/webpack.test.conf.js": "unit",
     "test/e2e/**/*": "e2e",
-    "src/router/**/*": "router"
+    "src/router/**/*": "router",
+    "src/store/**/*": "vuex"
   },
   "completeMessage": "프로젝트 시작하기:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nhttps://vuejs-templates.github.io/webpack 에서 프로젝트 템플릿 사용 방법을 확인할 수 있습니다."
 };
