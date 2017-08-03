@@ -20,7 +20,7 @@ module.exports = {
       "type": "string",
       "required": false,
       "message": "project 설명",
-      "default": "Vue.js project"
+      "default": "Fast Campus front-end dev. school 4기 team 7의 project. 주제는 '음식2: 오늘 뭐먹지?'"
     },
     "author": {
       "type": "string",
@@ -73,14 +73,14 @@ module.exports = {
       "message": "ESLint pre-set을 선택해 주세요.",
       "choices": [
         {
-          "name": "Standard 스타일 (https://github.com/feross/standard)",
-          "value": "standard",
-          "short": "Standard"
-        },
-        {
           "name": "Airbnb 스타일 (https://github.com/airbnb/javascript)",
           "value": "airbnb",
           "short": "Airbnb"
+        },
+        {
+          "name": "Standard 스타일 (https://github.com/feross/standard)",
+          "value": "standard",
+          "short": "Standard"
         },
         {
           "name": "none (직접 규칙 설정)",
@@ -92,12 +92,12 @@ module.exports = {
     "unit": {
       "type": "confirm",
       "message": "unit test를 위한 Karma와 Mocha를 설치 하시겠습니까?",
-      "default": false
+      "default": true
     },
     "e2e": {
       "type": "confirm",
       "message": "e2e test를 위한 Nightwatch를 설치 하시겠습니까?",
-      "default": false
+      "default": true
     }
   },
   "filters": {
