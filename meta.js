@@ -24,7 +24,9 @@ module.exports = {
     },
     "author": {
       "type": "string",
-      "message": "제작자"
+      "required": false,
+      "message": "제작자",
+      "default": "Fast Campus front-end dev. school 4기 team 7"
     },
     "build": {
       "type": "list",
